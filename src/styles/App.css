@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecedf2;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 100%;
+}
+
+.post {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 8px 12px;
+    margin-top: 2px;
+    margin-left: 24px;
+}
+
+.post__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.post__item p {
+    font-weight: bold;
+}
+
+.post__item img {
+    border-radius: 50%;
+}
+
+.post button {
+    margin: 12px;
+    background-color: #fefefe;
+    font-family: Arial;
+    font-size: 14px;
+    color: #263b6a;
+    background: transparent;
+    border: none !important;
+    border-radius: 5px;
+}
+
+.post button:hover {
+    background-color: #fefefe;
+}
+
+.post:hover {
+    background-color: #e5e9f4;
+}

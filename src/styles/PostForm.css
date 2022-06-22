@@ -1,0 +1,60 @@
+.form-registration {
+    /*background: #7f7f7f;*/
+    background: white;
+    padding: 10px;
+    margin: 5% 32.97%;
+    border-radius: 10px;
+}
+.form-registration p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: #263b6a;
+    text-align: center;
+}
+.form-registration input::placeholder {
+    color: #818181;
+    text-align: center;
+}
+.form-registration input:required {
+    background-color: #f4f4f4;
+}
+.form-row {
+    margin: 0 21.1%;
+    /*padding: 3.21% 0;*/
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+.form-row input::placeholder {
+    font-size: 11px;
+}
+.form-submit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-submit button {
+    background: transparent;
+    border: none !important;
+}
+.form-submit button p {
+    /*font-family: Arial;*/
+    /*font-weight: bolder;*/
+    color: #263b6a;
+    font-size: 10px;
+}
+.form-control-row {
+    /*background: #435377;*/
+    height: 100%;
+    width: 100%;
+    /*border: 3px #263b6a;*/
+    border-width: 1px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+.form-group #form-image {
+    /*delete px*/
+    height: 106px;
+    width: 106px;
+}
