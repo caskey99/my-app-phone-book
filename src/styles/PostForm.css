@@ -18,6 +18,7 @@
 }
 .form-registration input:required {
     background-color: #f4f4f4;
+    text-align:center;
 }
 .form-row {
     margin: 0 21.1%;
@@ -28,6 +29,7 @@
 }
 .form-row input::placeholder {
     font-size: 11px;
+    text-align:center;
 }
 .form-submit {
     display: flex;
@@ -36,6 +38,7 @@
 }
 .form-submit button {
     background: transparent;
+    padding: 1%;
     border: none !important;
 }
 .form-submit button p {
@@ -44,6 +47,14 @@
     color: #263b6a;
     font-size: 10px;
 }
+
+.form-submit button:hover {
+    background-color: rgba(222, 222, 222, 0.27);
+    border: none !important;
+    border-radius: 5px;
+}
+
+
 .form-control-row {
     /*background: #435377;*/
     height: 100%;
@@ -52,9 +63,27 @@
     border-width: 1px;
     border-radius: 4px;
     margin-bottom: 14px;
+    text-align:center;
 }
+
+.form-group {
+    text-align: center;
+}
+
 .form-group #form-image {
     /*delete px*/
-    height: 106px;
-    width: 106px;
+    margin-top: 10%;
+    height: 30%;
+    width: 30%;
+}
+
+
+@media screen and (max-width: 600px){
+    .form-registration {
+        /*background: #7f7f7f;*/
+        background: white;
+        padding: 10px;
+        margin: 5% 12.97%;
+        border-radius: 10px;
+    }
 }

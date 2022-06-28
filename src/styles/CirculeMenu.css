@@ -70,3 +70,58 @@ html, body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+@media screen and (max-width: 600px){
+    .menu-list {
+        width: 236px;
+        height: 236px;
+        padding: 0;
+        margin: 0 auto;
+        list-style-type: none;
+        position: relative;
+        border: 0px solid #1182ee;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .menu-item {
+        position: absolute;
+        border: 0px solid #1182ee;
+        width: 139.767px;
+        height: 139.767px;
+        left: -16.77px;
+        top: -16.77px;
+        transform-origin: 100% 100%;
+        overflow: hidden;
+    }
+
+    .menu-item:nth-child(1) .menu-img {
+        transform: translate(-50%, -50%) rotate(225deg);
+        padding-top: -10px;
+        padding-left: 150px;
+        width: 23%;
+    }
+
+    .menu-item:nth-child(2) .menu-img {
+        transform: translate(-50%, -50%) rotate(135deg);
+        padding-right: 10px;
+        padding-top: 120px;
+        width: 23%;
+    }
+
+    .menu-item:nth-child(3) .menu-img {
+        transform: translate(-50%, -50%) rotate(45deg);
+        padding-right: 120px;
+        padding-left: 10px;
+        width: 23%;
+    }
+
+    .menu-item:nth-child(4) .menu-img {
+        transform: translate(-50%, -50%) rotate(315deg);
+        padding-bottom: 120px;
+        padding-right: 10px;
+        width: 23%;
+    }
+
+}

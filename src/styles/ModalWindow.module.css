@@ -14,8 +14,8 @@
     padding: 10px;
     margin: 5% 32.97%;
     border-radius: 10px;
-    min-width: 900px;
-    min-height: 436px;
+    min-width: 100%;
+    /*min-height: 100%;*/
 }
 
 .modalWindow.active {

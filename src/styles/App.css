@@ -16,13 +16,23 @@ body {
     width: 100%;
 }
 
+.PostList {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 40px;
+}
+
+.post__list {
+    padding-top: 0.3%;
+}
 .post {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     background-color: white;
-    padding: 8px 12px;
-    margin-top: 2px;
-    margin-left: 24px;
+    padding: 0.63% 0.95%;
+    margin-top: 0.2%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
 }
 
 .post__item {
@@ -31,7 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 100%;
 }
 
 .post__item p {
@@ -59,4 +69,40 @@ body {
 
 .post:hover {
     background-color: #e5e9f4;
+}
+
+
+
+
+@media screen and (max-width: 658px){
+    .item__email{
+        display: none;
+    }
+    .navbar-item-heading-email{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .item__address{
+        display: none;
+    }
+    .navbar-item-heading-address{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .item__phone{
+        display: none;
+    }
+    .navbar-item-heading-phone{
+        display: none;
+    }
+
+    .PostList {
+        margin-top: 10%;
+        font-size: 20px;
+    }
 }

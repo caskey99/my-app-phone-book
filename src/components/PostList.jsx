@@ -1,16 +1,16 @@
 import React from 'react';
 import PostItem from "./PostItem";
 
-const PostList = ({posts}) => {
+const PostList = ({posts, edit, setModalEdit}) => {
     if(!posts.length){
         return (
-            <div ><p style={{textAlign: 'center'}}>No posts!</p></div>
+            <div className="PostList"><p>No posts!</p></div>
         )
     }
     return (
-        <div>
+        <div className='post__list'>
             {posts.map(post =>
-                <PostItem post={post} key={post.id}/>
+                <PostItem edit={edit} setModalEdit={setModalEdit} post={post} key={post.id}/>
             )}
         </div>
     );

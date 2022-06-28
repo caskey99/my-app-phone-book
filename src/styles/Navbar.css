@@ -7,6 +7,7 @@
     align-items: center;
     margin: 0 1.95%;
     height: 64px;
+
 }
 
 .form-search {
@@ -31,7 +32,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 48px;
     background-color: #fefefe;
     font-family: Arial;
     font-size: 15px;
@@ -40,9 +40,11 @@
 
 .navbar-item-logo{
     margin: 0 3.98%;
+    padding: 1.39% 2% 1.39% 1.45%;
 }
 
-.navbar-items{
+.navbar-item-heading {
+    padding-right: 16%;
 }
 
 .navbar-section a{
@@ -52,4 +54,10 @@
 
 .navbar-section p{
     font-weight: bold;
+}
+
+@media screen and (max-width: 550px){
+    .navbar-item-heading {
+        padding-right: 4%;
+    }
 }
