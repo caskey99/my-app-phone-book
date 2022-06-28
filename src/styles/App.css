@@ -71,9 +71,6 @@ body {
     background-color: #e5e9f4;
 }
 
-
-
-
 @media screen and (max-width: 658px){
     .item__email{
         display: none;
